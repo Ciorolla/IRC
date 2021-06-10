@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="jq.js"></script>
+    <script defer src="jquery.cssemoticons.min.js"></script>
+    <link href="jquery.cssemoticons.css" media="screen" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="tinyscrollbar.css">
+    <script defer src="jquery.tinyscrollbar.js"></script>
+    <script defer src="pool.js" type="module"></script>
+    <style>
+        #chat {
+            width: 700px;
+            height: 1000px;
+            /* position: relative; */
+            top: 0%;
+            left: 0%;
+            /* border: 1px solid black; */
+            /* overflow: scroll; */
+        }
+    </style>
+</head>
+
+<body>
+    <div id="scrollbar1">
+        <div class="scrollbar">
+            <div class="track">
+                <div class="thumb">
+                    <div class="end"></div>
+                </div>
+            </div>
+        </div>
+        <div class="viewport">
+            <div id="chat" class="overview"></div>
+        </div>
+    </div>
+    <input type="text" id="input">
+    <button id="send">wyslij</button>
+    <p>żeby poznać polecenia wpisz "/help"</p>
+
+</body>
+
+</html>
